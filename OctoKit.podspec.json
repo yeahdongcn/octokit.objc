@@ -14,8 +14,8 @@
   "source_files": "OctoKit",
   "requires_arc": true,
   "platforms": {
-    "ios": "5.1",
-    "osx": "10.7"
+    "ios": "6.0",
+    "osx": "10.8"
   },
   "prepare_command": "    find . -regex '.*\\.[hm]' -exec sed -i '' -E 's@<ReactiveCocoa/(EXT.*)\\.h>@<ReactiveCocoa/RAC\\1.h>@' {} \\;\n",
   "dependencies": {
